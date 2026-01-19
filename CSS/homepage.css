@@ -1,0 +1,72 @@
+#mapAndApply, #info{
+    float: left;
+    width: 49%;
+    margin-top: 20px;
+}
+
+
+#mapAndApply img{
+    max-width: 80%;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#mapAndApply dl img:hover{
+    box-shadow: 5px 5px 5px rgb(65, 95, 128);
+}
+
+#welcome li{
+    padding-left: 40px;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+#info dd{
+    padding-left: 40px;
+}
+
+#mapAndApply dd{
+    padding-left: 20px;
+}
+
+
+#info{
+    margin-left: 1%;
+}
+
+
+#mapAndApply{
+    margin-right: 1%;
+}
+
+#mapAndApply a>img{
+    width: 40%;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+}
+
+#mapAndApply a>img:hover{
+    transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05);
+}
+
+#welcome {
+    clear: both;
+    width: 85%;
+    border: 2px solid rgb(65, 95, 128);
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin: auto;
+    line-height: 25px;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+}
+
+#welcome:hover{
+    box-shadow: 5px 5px 5px rgb(65, 95, 128);
+    transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05);
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@keyframes textAnimation{
+    from {color: #1a4372;}
+    to {color: #6699d8;}
+}
+.labLogo, .labHeading, footer{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+}
+
+.labLogo{
+    padding-top: 10px;
+}
+
+.labHeading{
+    color: #1a4372;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+footer{
+    clear: both;
+    width:100%;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    color: #1a4372;
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.navigation li{
+    float: left;
+    list-style-type: none;
+    height: 40px;
+    width: calc(100%/6);
+    background-color: 	#6a88ad;
+    margin-bottom: 10px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    text-align: center ;
+    height: 30px;
+    padding-top: 10px;
+    display: block;
+    color: rgb(252, 252, 252);
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+}
+
+.navigation li a:link{
+    color: rgb(252, 252, 252);
+}
+
+.navigation li a:hover{
+    background-color: #5b7aa0;
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+}
+
+
+.navigation li a:visited{
+    color: rgb(205, 222, 235);
+}
+
+.navigation li a:active{
+    color: rgb(160, 194, 222);
+}
+
+
+header, footer{
+    background: -webkit-radial-gradient(ellipse, #F5F7FA, #adcce1);
+    background: -moz-radial-gradient(ellipse, #F5F7FA, #adcce1);
+}
+
+dl dt{
+    font-weight: 700;
+    font-size: large;
+    line-height: 30px;
+}

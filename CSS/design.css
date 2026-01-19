@@ -1,0 +1,49 @@
+#headingDesign{
+    text-align: center;
+}
+
+.contentDesign {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#point1,#point2,#point3, #eventHandlers, #es6{
+    width: 87%;
+    border: 1px solid rgb(65, 95, 128);
+    border-radius: 10px;
+    padding: 2% 4%;
+    line-height: 20px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 5px rgb(65, 95, 128);
+}
+
+#point1 table td, #point1 table th, #point2 table td, #point2 table th, #point3 table td, #point3 table th, #eventHandlers table td, #eventHandlers table th , #es6 table td, #es6 table th{
+    border: 1px solid rgb(65, 95, 128);
+    padding: 0.5%;
+}
+
+#point1 table, #point2 table, #point3 table, #eventHandlers table, #es6 table{
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#point1 table th, #point2 table th, #point3 table th, #eventHandlers table th, #es6 table th{
+    background-color: rgb(131, 157, 203);
+    color: black;
+}
+
+#point1 table tr:nth-child(even), #point2 table tr:nth-child(even), #point3 table tr:nth-child(even), #eventHandlers table tr:nth-child(even), #es6 table tr:nth-child(even){
+    background-color: rgb(238, 240, 245);
+}
+
+#point1 table tr:nth-child(odd), #point2 table tr:nth-child(odd), #point3 table tr:nth-child(odd), #eventHandlers table tr:nth-child(odd), #es6 table tr:nth-child(odd){
+    background-color: rgb(186, 201, 227);
+}
+
+#point1 table tr:hover, #point2 table tr:hover, #point3 table tr:hover, #eventHandlers table tr:hover, #es6 table tr:hover{
+    background-color: rgb(94, 119, 161);
+    color: rgb(211, 222, 233);
+}

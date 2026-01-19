@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Intelligent Sensing Lab-Information Page</title>
+        <link rel="stylesheet" href="../CSS/headnavandfooter.css" type="text/css" media="all">
+        <link rel="stylesheet" href="../CSS/information.css" type="text/css" media="all">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../JS/information.js"></script>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <!--image and heading-->
+            <img class="labLogo" src="../image/logo.png" width="550" height="150" alt="Intelligent Sensing Lab Logo">
+            <br>
+            <h1 class="labHeading">Intelligent Sensing Lab</h1>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    
+        <div id="mainContainer">
+            <h3 id="loopHead">Optical Sensing Division has 8 openings for PhD researchers! Develop next-gen imaging systems.</h3>   
+            <!-- heading content is to bypass the empty heading warning by the validator, it still does choose the first heading randomly -->
+            <div id="vid1">
+                <video width="700" controls autoplay muted onended="vidEnd();">
+                    <source id = "webmsrc" src="https://personal.cs.cityu.edu.hk/~cs2204/2025/video/video1.webm" type="video/webm">
+                    <source id = "mp4src" src="https://personal.cs.cityu.edu.hk/~cs2204/2025/video/video1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div id="infoTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Research Division</th>
+                        <th>Focus Area</th>
+                        <th>Open Positions</th>
+                        <th>Stipend (HKD/month)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Optical Sensing</td>
+                        <td>Hyperspectral Imaging</td>
+                        <td>4</td>
+                        <td>18,000</td>
+                    </tr>
+                    <tr>
+                        <td>Optical Sensing</td>
+                        <td>LiDAR Development</td>
+                        <td>3</td>
+                        <td>16,500</td>
+                    </tr>
+                    <tr>
+                        <td>Bio-Sensing</td>
+                        <td>Medical Diagnostics</td>
+                        <td>5</td>
+                        <td>17,000</td>
+                    </tr>
+                    <tr>
+                        <td>Bio-Sensing</td>
+                        <td>Environmental Monitoring</td>
+                        <td>3</td>
+                        <td>15,500</td>
+                    </tr>
+                    <tr>
+                        <td>Smart Sensing</td>
+                        <td>IoT Networks</td>
+                        <td>6</td>
+                        <td>16,000</td>
+                    </tr>
+                    <tr>
+                        <td>Smart Sensing</td>
+                        <td>Structural Monitoring</td>
+                        <td>4</td>
+                        <td>17,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <img src="../image/footer_logo.png" width="460" height="100" alt="logo">
+            <p>&copy; CityU 2024 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="design.html">Areeba FATIMA</a></p>
+        </footer>
+
+        <script>
+            var flag = 0;
+            function vidEnd() {
+                if (!flag) {
+                    document.querySelector('#webmsrc').setAttribute("src", "https://personal.cs.cityu.edu.hk/~cs2204/2025/video/video2.webm");
+                     document.querySelector('#mp4src').setAttribute("src", "https://personal.cs.cityu.edu.hk/~cs2204/2025/video/video2.mp4");
+                } else {
+                    document.querySelector('#webmsrc').setAttribute("src", "https://personal.cs.cityu.edu.hk/~cs2204/2025/video/video1.webm");
+                    document.querySelector('#mp4src').setAttribute("src", "https://personal.cs.cityu.edu.hk/~cs2204/2025/video/video1.mp4");
+                }
+                flag = !flag;
+
+                document.querySelector('video').load();
+                document.querySelector('video').play();
+            }
+        </script>
+    </body>
+</html>

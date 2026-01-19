@@ -1,0 +1,62 @@
+#mainContainer{
+    width: 90%;
+    margin: auto;
+}
+
+
+#mainContainer h3{
+    float: left;
+    width: 50%;
+    padding: 0 5%;
+    margin-bottom: 20px;
+}
+
+
+
+#mainContainer #vid1 video{
+    float: left;
+    width: 30%;
+    padding-left:  5%;
+    margin-bottom: 20px;
+}
+
+
+
+#infoTable table{
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#infoTable{
+    clear: both;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#infoTable>table th{
+    background-color: rgb(114, 141, 186);
+    padding: 10px;
+    border: 1px solid rgb(56, 64, 104);
+    width: 200px;
+    color: black;
+}
+
+#infoTable td{
+    padding: 5px;
+    border: 1px solid rgb(56, 64, 104);
+}
+
+#infoTable>table tr:nth-child(even){
+    background-color: rgb(238, 240, 245);
+}
+
+#infoTable>table tr:nth-child(odd){
+    background-color: rgb(186, 201, 227);
+}
+
+#infoTable>table tr:hover{
+    background-color: rgb(94, 119, 161);
+    color: rgb(211, 222, 233);
+}

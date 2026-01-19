@@ -1,0 +1,107 @@
+.welcome{
+    text-align: center;
+}
+
+.apply{
+    margin-top: 10px;
+    padding: 10px 5px;
+    border: 1px solid rgb(65, 95, 128);
+}
+
+
+.button-apply, .button-apply:visited, .button-apply:hover, .button-apply:active{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: black;
+    padding: 3px 15px;
+    background-color: rgb(235, 234, 234);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#chosenCompanies>h2, #chosenCompanies>h3, #chosenCompanies>table{
+    margin: 10px;
+    clear: both;
+}
+
+#chosenCompanies>table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#chosenCompanies>table th{
+    background-color: rgb(114, 141, 186);
+    padding: 10px;
+    border: 1px solid rgb(56, 64, 104);
+    width: 200px;
+    color: black;
+}
+
+#chosenCompanies td{
+    padding: 5px;
+    border: 1px solid rgb(56, 64, 104);
+}
+
+#chosenCompanies>table tr:nth-child(even){
+    background-color: rgb(238, 240, 245);
+}
+
+#chosenCompanies>table tr:nth-child(odd){
+    background-color: rgb(186, 201, 227);
+}
+
+#chosenCompanies>table tr:hover{
+    background-color: rgb(94, 119, 161);
+    color: rgb(211, 222, 233);
+}
+
+.bsdForm div, .ssdForm div, .osdForm div {
+    overflow: auto;
+    width: 30%;
+    float: left;
+    margin: 0px 1px;
+    border: 1px solid rgb(65, 95, 128);
+    border-radius: 5px;
+}
+
+.osdForm img, .bsdForm img, .ssdForm img{
+    display: block;
+    width: fit-content;
+    margin: 5% auto;
+    border-radius: 20px;
+}
+
+.osdForm label, .ssdForm label, .bsdForm label {
+    display: block;
+    clear: both;
+    text-align: center;
+}
+
+.osdForm input, .osdForm button, .ssdForm input, .ssdForm button, .bsdForm input, .bsdForm button{
+    float: left;
+    width: 39%;
+    text-align: center;
+    margin: 5% 5%;
+}
+
+.heading{
+    float: left;
+    width: 30%;
+    background-color: rgb(140, 167, 207);
+    text-align: center;
+    border: 1px solid rgb(56, 64, 104);
+    margin: 0 1px;
+    border-radius: 5px;
+} 
+
+.osdDiv:hover, .bsdDiv:hover, .ssdDiv:hover{
+    background-color: rgb(205, 222, 247);
+}
+
+
+#tableError{
+    color: red;
+    text-align: center;
+}

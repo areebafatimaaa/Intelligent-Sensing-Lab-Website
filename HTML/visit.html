@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Intelligent Sensing Lab-Visit Page</title>
+        <link rel="stylesheet" href="../CSS/headnavandfooter.css" type="text/css" media="all">
+        <link rel="stylesheet" href="../CSS/visit.css" type="text/css" media="all">
+        <script src="../JS/visit.js"></script>
+        <script src="https://personal.cs.cityu.edu.hk/%7Ecs2204/2023/cw3cs2204.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <!--image and heading-->
+            <img class="labLogo" src="../image/logo.png" width="550" height="150" alt="Intelligent Sensing Lab Logo">
+            <br>
+            <h1 class="labHeading">Intelligent Sensing Lab</h1>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="visitWelcome">
+            <p>Visit Intelligent Sensing Lab to witness groundbreaking research in sensor technology. Our facility features:</p>
+            <ul>
+                <li>Cleanroom for nanoscale sensor fabrication</li>
+                <li>Environmental testing chambers</li>
+                <li>Sensor calibration and validation center</li>
+                <li>Prototyping workshop</li>
+            </ul>
+
+            <p>During your tour, you'll:</p>
+            <ul>
+                <li>See live demonstrations of our latest sensors</li>
+                <li>Meet leading researchers in optical, bio, and smart sensing</li>
+                <li>Learn about career and collaboration opportunities</li>
+            </ul>
+        </div>
+        
+        <div id="visitBlock">
+            <img src="../image/location.png" width="800" height="800" alt="location on a map">
+            <div id="infoText">
+                <h2>Location</h2>
+                <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+                <p>Tel: (852) 9876 5432</p>
+                <p>Email: visit@intelligentsensinglab.edu.hk</p>
+            </div>
+        </div>
+         
+        <div id="registration">
+            <h2>Annual Open Day Registration</h2>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Booking information</legend>
+                    <label for="date1">Date:</label>
+                    <input type="date" id="date1"><br>
+                    <label for="time1">Time:</label>
+                    <select id="time1">
+                        <option value="option 1">9:00-10:00am</option>
+                        <option value="option 2">10:00-11:00am</option>
+                        <option value="option 3">2:00-3:00pm</option>
+                        <option value="option 4">3:00-4:00pm</option>
+                        <option value="option 5">4:00-5:00am</option>
+                    </select><br>
+                    <label for="visitors">No.of Visitors</label>
+                    <input type="text" id="visitors"><br>
+                    <p id="errormessage"></p>
+                    <button type="submit" id="availBtn">Check Availability</button>
+                    <button type="reset" id="resetBtn">Reset</button>
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <img src="../image/footer_logo.png" width="460" height="100" alt="logo">
+            <p>&copy; CityU 2024 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="design.html">Areeba FATIMA</a></p>
+        </footer>
+    </body>
+</html>

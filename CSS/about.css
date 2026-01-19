@@ -1,0 +1,76 @@
+#labimage{
+   max-width: 100%; 
+   height: auto;
+   width: auto;
+   margin-bottom: 0;
+}
+
+#aboutText, table{
+    float: left;
+    max-width: 80%;
+    width: 47.5%;
+}
+
+#aboutText{
+    border: 1px solid black;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+    font-size: medium;
+    line-height: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#aboutText p:first-child{
+    font-weight: 700;
+    font-size: large;
+}
+
+#aboutText>p{
+    margin-bottom: 5px;
+}
+
+#aboutText span{
+    margin-left: 30px;
+    display: block;
+}
+
+#aboutText:hover{
+    box-shadow: 5px 5px 5px rgb(65, 95, 128);
+}
+
+table{
+    overflow: auto;
+    height: auto;
+    margin-top: 1%;
+}
+
+th, td{
+    border: 1px solid rgb(56, 64, 104);
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: rgb(123, 161, 195);
+    font-size: medium;
+}
+
+tr{
+    background-color: rgb(222, 232, 241);
+    font-size: medium;
+}
+
+tr:hover{
+    background-color: rgb(177, 194, 210) ;
+}
+table caption{
+    padding: 5px;
+    background-color: rgb(126, 156, 196);
+    font-weight: 700;
+    font-size: medium;
+}
+
+table {
+  border-collapse: collapse;
+}
